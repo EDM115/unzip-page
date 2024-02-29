@@ -1,11 +1,12 @@
 repo_name: EDM115/unzip-page
 report_id: 79e35224d94903e9a70cdefb59c36d15
+version: 0.1
 repo_type: Public
-timestamp: '2023-11-09T16:02:47+00:00'
+timestamp: '2024-02-29T18:13:10+00:00'
 requested_by: EDM115
 provider: github
 branch: master
-detected_tools_count: 3
+detected_tools_count: 4
 tools:
 - name: CSS 3
   description: The latest evolution of the Cascading Style Sheets language
@@ -15,6 +16,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/6727/css.png
+  detection_source_url: https://github.com/EDM115/unzip-page
   detection_source: Repo Metadata
 - name: JavaScript
   description: Lightweight, interpreted, object-oriented language with first-class
@@ -25,6 +27,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/EDM115/unzip-page
   detection_source: Repo Metadata
 - name: Git
   description: Fast, scalable, distributed revision control system
@@ -34,4 +37,15 @@ tools:
   category: Build, Test, Deploy
   sub_category: Version Control System
   image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/EDM115/unzip-page
   detection_source: Repo Metadata
+- name: HTML
+  description: Hypertext Markup Language for creating web pages.
+  website_url: http://
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/2270/no-img-open-source.png
+  detection_source_url: https://github.com/EDM115/unzip-page/blob/master/index.html
+  detection_source: index.html
+  last_updated_by: EDM115
+  last_updated_on: 2023-02-15 15:04:39.000000000 Z
